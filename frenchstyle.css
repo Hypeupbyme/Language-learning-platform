@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: black;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+}
+.logo{
+    font-size: 2.5rem;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 1.3s;
+}
+nav a:hover{
+    color: #ffaa00;
+}
+main{
+    text-align: left;
+    padding: 20px;
+}
+.lessons-section{
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgpa(0,0,0,0.1) ;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.lessons-section h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    background-color: orange;
+    ;
+}
+.lessons-section p{
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.lessons-section h3{
+    font-size: 1.5rem;
+    color: red;
+    text-align: left;
+}
+.lessons-section ol{
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.lessons-section ul{
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.lessons-section li{
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.quizz-section{
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgpa(0,0,0,0.1) ;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+.quizz-section h2{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+    background-color: orange;
+    ;
+}
+.quizz-section p{
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: white;
+}
+.quizz-section h3{
+    font-size: 1rem;
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+.quizz-section label{
+    font-size: 1.2rem;
+    color: b;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: white;
+}
+.submit-button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffaa00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+.submit-button:hover{
+    background-color: #ff6600;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px
+}
